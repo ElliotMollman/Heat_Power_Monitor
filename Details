@@ -1,0 +1,8 @@
+#This code is meant to run in the background to monitor the internal temperature and battery of the PC, giving 
+#warnings to the user, and shutting down when critical levels are met.
+
+#note: I couldn't use a list of strings with low_battery power for some reason using 'if battery in list'.
+
+#Also, since I only have a virtual machine for linux, inxi was not able to track the temperature of my actual pc. So
+#the first part is purely guessing based on the examples on the web. If ti does not work, the field number might be 
+where to look
